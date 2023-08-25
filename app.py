@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import sklearn
 import pickle
+from transformers import pipeline
 
 pickle_in = open('creditcardfraud.pkl', 'rb')
 model = pickle.load(pickle_in)
