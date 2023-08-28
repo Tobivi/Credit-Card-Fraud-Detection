@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import scikit-learn
 
 pickle_in = open('creditcardfraud.pkl', 'rb')
 model = pickle.load(pickle_in)
